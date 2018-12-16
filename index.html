@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Super Tetris</title>
+    <link href='index.css' rel='stylesheet' type='text/css'>
+	<!--Подключаем библиотеку-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body onload="timer()">
+    <p>Level: <span id="level">1</span></p>
+    <p>Score: <span id="score">0</span></p>
+    <p>Timer:
+        <span id="hours"></span>
+        <span>:</span> 
+        <span id="minutes"></span>
+        <span>:</span>
+        <span id="seconds"></span>
+    </p>
+    <div id="main"></div>
+</body>
+</html>
+<script src="index.js"></script>

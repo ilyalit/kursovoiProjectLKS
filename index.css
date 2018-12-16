@@ -1,0 +1,14 @@
+#main table {
+	border: 10px solid grey;
+	border-collapse: collapse;
+}
+#main table tr {
+	height: 20px;
+}
+#main table tr td {
+	width: 20px;
+	padding: 0;
+}
+#main table tr td.fill {
+	box-shadow: 1px 1px 4px 0px gray inset;
+}
